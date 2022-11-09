@@ -41,7 +41,6 @@ button {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-
 button:hover {
   background: #2a2a2a;
 }
@@ -77,7 +76,6 @@ button:hover {
   max-height: 20px;
   position: relative;
 }
-
 .weather .loading::after {
   visibility: visible;
   content: "Loading...";
