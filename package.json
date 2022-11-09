@@ -1,0 +1,55 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "weather-app",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build --build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-watch": "sass --watch src/scss:src/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictoriiaShtyreva/weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictoriiaShtyreva/weather-app/issues"
+  },
+  "homepage": "https://github.com/VictoriiaShtyreva/weather-app",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "del": "^7.0.0",
+    "gh-pages": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-fonter": "^0.3.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp-version-number": "^0.2.4",
+    "gulp-webp": "^4.0.1",
+    "gulp-webp-html-nosvg": "^1.1.1",
+    "gulp-webpcss": "^1.1.1",
+    "node-sass": "^7.0.3",
+    "sass": "^1.55.0",
+    "vinyl-ftp": "^0.6.1",
+    "webp-converter": "^2.2.3",
+    "webpack": "^5.74.0",
+    "webpack-stream": "^7.0.0"
+  }
+}
