@@ -4,6 +4,8 @@ import gulp from "gulp";
 import path from "./gulp/config/path.js";
 // Import common plugins
 import plugins from "./gulp/config/plugins.js";
+// Import deploy
+import deploy from "gulp-gh-pages";
 
 
 // Pass values in global variable
@@ -53,3 +55,9 @@ export { build };
 
 // Executing the default script
 gulp.task("default", dev);
+
+// Create task for deploy
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
+});
