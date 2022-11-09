@@ -4,8 +4,7 @@
 
 * Creator: [Viktoriia Shtyreva](https://github.com/VictoriiaShtyreva)
 _____
-** :globe_with_meridians: [Check the Demo](https://victoriiashtyreva.github.io/weather-app/)**
-![This is an image](https://drive.google.com/file/d/1MVZlwNNSSSJAd1DBCRL4E3DON5ACM9dT/view?usp=sharing)
+**:globe_with_meridians:[Check the Demo](https://victoriiashtyreva.github.io/weather-app/)**
 
 ### Stacks technology which I used:
 - :white_check_mark: HTML
