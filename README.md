@@ -1,4 +1,4 @@
-# [Weather-app] (https://victoriiashtyreva.github.io/weather-app/index.html)
+# [Weather-app](https://victoriiashtyreva.github.io/weather-app/index.html)
 
 ## This App using access the OpenWeatherMap API using JavaScript's 'fetch()' and dynamically modify content on the page and background images.
 
